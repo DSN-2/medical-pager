@@ -74,7 +74,7 @@ const Auth = () => {
         }
     }
 
-
+    
     const SendOtp = async (e) => {
         e.preventDefault();
         const { checkEmail, username } = form;
